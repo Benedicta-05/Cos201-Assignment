@@ -34,7 +34,7 @@ def get_tax_data(status):
     return None, None
 
 
-# Get tne status filing
+# Get the status filing
 print("Tax breakdown as follows:")
 print("0 - Single")
 print("1 - Married Filing Jointly")
@@ -71,5 +71,6 @@ else:
 print("\nCalculation complete!")
 print("\nYour Federal Income Tax is: ${:.2f}".format(tax))
 print("Thank you for using the U.S. Federal Income Tax Calculator (2009). Have a great day!")
+
 
 
